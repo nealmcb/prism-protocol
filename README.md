@@ -1,8 +1,11 @@
 ## PRISM — The Open Intent Signal
 v0.1 • Public Protocol • The Trust Signal, Not the Trust Engine
 
+> "Before an agent acts, it must emit a structured 'here's what I'm about to do' signal." — Robert Katzenberger
 
-Prism is a lightweight, neutral protocol for generating standardized intent metadata across apps, agents, and AI systems.
+Prism is a lightweight, neutral protocol for generating standardized intent metadata across apps, agents, and AI systems. It serves as a **pre-execution intent layer for AI** — a missing execution safety layer that sits between agent reasoning and action execution.
+
+**Status:** Prism is currently a proposed open protocol specification. It is not yet a formally ratified standard, but is designed to evolve into one through community adoption and governance.
 
 It provides a universal pre-execution intent signal — a tiny metadata envelope that documents what an agent is about to do, without enforcing, verifying, judging, or governing the action.
 
@@ -134,7 +137,10 @@ universal intent primitives
 This supports collaborative, interpretable digital ecosystems without requiring governance, identity, cryptography, or enforcement layers.
 
 ## Roadmap
-v0.1 — Foundation (This Release)
+
+For the complete roadmap including contribution opportunities and standardization plans, see [docs/ROADMAP.md](docs/ROADMAP.md).
+
+### v0.1 — Foundation (This Release)
 
 Prism Intent Signal format
 
@@ -142,7 +148,7 @@ Minimal field definitions
 
 Starter libraries (Node, Python)
 
-MIT License
+Apache 2.0 License
 
 v0.2 — Ecosystem
 
@@ -223,7 +229,7 @@ PRs encouraged.
 
 ## License
 
-MIT License — open, permissive, friendly to industry and academia.
+Apache License 2.0 — open, permissive, friendly to industry and academia. See [LICENSE](LICENSE) for details.
 
 ## Credit
 
